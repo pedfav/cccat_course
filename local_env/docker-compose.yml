@@ -4,6 +4,6 @@ services:
     volumes:
       - ../create.sql:/docker-entrypoint-initdb.d/create.sql
     environment:
-      POSTGRES_PASSWORD: "cccat15_1"
+      POSTGRES_PASSWORD: "cccat123"
     ports:
       - "5432:5432"
